@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": ">=16.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -66,5 +66,8 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-url": "^2.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
