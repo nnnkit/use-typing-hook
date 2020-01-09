@@ -1,12 +1,8 @@
-import React from 'react'
-import { useMyHook } from 'use-typing-hook'
+import React from "react";
+import useMyHook from "use-typing-hook";
 
 const App = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
-export default App
+  const typing = useMyHook("Hello React Typing Hook!");
+  return <h1>{typing}</h1>;
+};
+export default App;
